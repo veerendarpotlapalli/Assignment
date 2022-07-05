@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eae9e9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Username : "
+        android:layout_marginTop="150dp"
+        android:paddingRight="160dp"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/ed_user"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="3"
+        android:text="123"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Password : "
+        android:layout_marginTop="300dp"
+        android:paddingRight="160dp"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="3"
+        android:text="123"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
