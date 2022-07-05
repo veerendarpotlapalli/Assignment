@@ -11,7 +11,7 @@ public class retrofit {
     public static apiclass apis() {
 
         if(retrofit == null) {
-             retrofit = new Retrofit.Builder()
+            retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();

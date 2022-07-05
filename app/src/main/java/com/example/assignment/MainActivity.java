@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         if(user != null){
             Intent intent = new Intent(MainActivity.this,maps.class);
             startActivity(intent);
+            finish();
         }
 
         button.setOnClickListener(new View.OnClickListener() {

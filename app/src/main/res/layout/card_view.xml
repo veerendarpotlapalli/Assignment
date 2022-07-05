@@ -44,46 +44,6 @@
             android:textStyle="bold"
             android:layout_marginStart="10dp"/>
 
-        <TextView
-            android:id="@+id/address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Address"
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_marginStart="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Street : "
-            android:textColor="#000000"
-            android:textSize="25sp"
-            android:layout_marginStart="90dp"
-            android:textStyle="italic"
-            android:id="@+id/street"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="City : "
-                    android:textColor="#000000"
-                    android:textSize="25sp"
-                    android:layout_marginStart="90dp"
-                    android:textStyle="italic"
-                    android:id="@+id/city"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Zipcode : "
-                    android:textColor="#000000"
-                    android:textSize="25sp"
-                    android:layout_marginStart="90dp"
-                    android:textStyle="italic"
-                    android:id="@+id/zipcode"/>
-
-
         </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>

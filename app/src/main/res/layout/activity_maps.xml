@@ -17,9 +17,10 @@
         tools:layout_editor_absoluteY="-2dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/frag"
-        android:id="@+id/recview"/>
+        android:layout_below="@+id/frag" />
+
 
 </RelativeLayout>

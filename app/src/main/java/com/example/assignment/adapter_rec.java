@@ -50,19 +50,19 @@ public class adapter_rec extends RecyclerView.Adapter<adapter_rec.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-            TextView name, username, email, street, city, zipcode;
+        TextView name, username, email, street, city, zipcode;
         public ViewHolder(@NonNull View itemView) {
-                super(itemView);
+            super(itemView);
             try {
                 name = itemView.findViewById(R.id.name);
                 username = itemView.findViewById(R.id.username);
                 email = itemView.findViewById(R.id.email);
-                street = itemView.findViewById(R.id.street);
-                city = itemView.findViewById(R.id.city);
-                zipcode = itemView.findViewById(R.id.zipcode);
+//                street = itemView.findViewById(R.id.street);
+//                city = itemView.findViewById(R.id.city);
+//                zipcode = itemView.findViewById(R.id.zipcode);
             }catch (Exception e){
                 e.printStackTrace();
             }
         }//ViewHolder
-        }//extends
+    }//extends
 }//main
